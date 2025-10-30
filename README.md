@@ -7,4 +7,9 @@
 
 解决方法：在终端执行gedit build.sh，然后将make -j改为make -j2
 
-执行命令：在终端命令执行cd ~/repos/ORB_SLAM2/，然后执行./Examples/Monocular/mono_tum Vocabulary/ORBvoc.txt Examples/Monocular/TUM1.yaml data/rgbd_dataset_freiburg1_xyz
+执行命令：在终端命令执行cd ~/repos/ORB_SLAM2/，然后执行./Examples/Monocular/mono_euroc \
+    Vocabulary/ORBvoc.txt \
+    Examples/Monocular/EuRoC.yaml \
+    data/MH_01_easy/mav0/cam0/data \
+    Examples/Monocular/EuRoC_TimeStamps/MH01.txt
+
